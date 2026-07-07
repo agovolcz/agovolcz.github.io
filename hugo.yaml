@@ -41,7 +41,7 @@ params:
           url: "https://app.hackthebox.com/users/2947699"
 
         - name: "linkedin"
-          url: "https://linkedin.com/in/ágoston-volcz-94222a182"
+          url: "https://linkedin.com/in/agoston-marcell-volcz"
 
 taxonomies:
     tag: "tags"
