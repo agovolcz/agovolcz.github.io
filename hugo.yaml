@@ -1,0 +1,79 @@
+baseURL: "https://agovolcz.github.io"
+locale: "en-us"
+title: "Ago Volcz | Offensive Security"
+theme: "PaperMod"
+pagination.pagerSize: 8
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+    disableXML: true
+
+params:
+    env: "production"
+    description: "Penetration testing portfolio - CTF writeups, infrastructure projects, and security research."
+    author: "Ago Volcz"
+    defaultTheme: "dark"
+    disableThemeToggle: false
+    ShowReadingTime: true
+    ShowShareButtons: false
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowWordCount: false
+    ShowToc: true
+    TocOpen: false
+    comments: false
+    hidemeta: false
+
+    homeInfoParams:
+        Title: "Hi I'm Ago Volcz 👋"
+        Content: "Transitioning into offensive security. CPTS-certified, HTB Master ranked, building a foundation in Linux administration and penetration testing. Documenting machines, labs, and the infra I use to do the work."
+
+    socialIcons:
+        - name: "github"
+          url: "https://github.com/agovolcz"
+
+        - name: "hackthebox"
+          url: "https://app.hackthebox.com/users/2947699"
+
+        - name: "linkedin"
+          url: "https://linkedin.com/in/ágoston-volcz-94222a182"
+
+taxonomies:
+    tag: "tags"
+    category: "categories"
+
+
+menu:
+  main:
+    - identifier: "writeups"
+      name: "Writeups"
+      url: "/writeups/"
+      weight: 10
+
+    - identifier: "infra"
+      name: "Infrastructure"
+      url: "/infra/"
+      weight: 20
+
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 30
+
+    - identifier: "cv"
+      name: "CV"
+      url: "/cv.pdf"
+      weight: 40
+
+markup:
+    highlight:
+      style: "dracula"
+      lineNos: true
+      codeFences: true
+      guessSyntax: true
+      tabWidth: 2

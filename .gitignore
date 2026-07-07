@@ -3,6 +3,7 @@ public/
 resources/
 hugo_cache/
 themes/
+.hugo_build.lock
 
 # OS
 .swp
