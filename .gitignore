@@ -1,0 +1,13 @@
+# Hugo
+public/
+resources/
+hugo_cache/
+themes/
+
+# OS
+.swp
+.swo
+.vim/
+
+.env
+
