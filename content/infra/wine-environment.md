@@ -119,7 +119,7 @@ juggling a debugger and a packet capture.
 ILSpy needed to be a version built against .NET 9 rather than the newest
 release, to match the runtime I'd actually settled on:
 
-```PowerShell
+```powershell
 iwr https://github.com/icsharpcode/ILSpy/releases/download/v9.1/ILSpy_binaries_9.1.0.7988-x64.zip -o ilspy.zip
 expand-archive ilspy.zip
 ilspy\ILSpy.exe
@@ -131,19 +131,19 @@ Et voilà! ILSpy is running from the container:
 
 ysoserial.net followed the same pattern — download, extract, run from inside the prefix:
 
-```PowerShell
+```powershell
 iwr https://github.com/pwntester/ysoserial.net/releases/download/v1.36/ysoserial-1dba9c4416ba6e79b6b262b758fa75e2ee9008e9.zip -o ysoserial.net.zip
 expand-archive ysoserial.net.zip
 ```
 
 And from `ysoserial.net\Release\`:
 
-```PowerShell
+```powershell
 PS Z:\home\wineuser\ysoserial.net\Release> .\ysoserial.exe
 ```
 
 Output:
-```
+```text
 Missing arguments. You may need to provide the command parameter even if it is being ignored.
 ysoserial.net generates deserialization payloads for a variety of .NET formatters.
 == GADGETS ==
